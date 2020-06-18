@@ -18,16 +18,16 @@ MonoBehaviour:
     value: 1
   colored:
     overrideState: 1
-    value: 0
+    value: 1
   intensity:
     overrideState: 1
-    value: 0.679
+    value: 0.602
   size:
     overrideState: 1
     value: 0.7
   lumContrib:
-    overrideState: 0
-    value: 0.701
+    overrideState: 1
+    value: 0.867
 --- !u!114 &-8106232138848522964
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -161,7 +161,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.59
+    value: 0.83
   color:
     overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
