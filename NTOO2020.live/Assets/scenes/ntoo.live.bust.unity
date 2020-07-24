@@ -1439,6 +1439,11 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[15]
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7296772956117306381, guid: 72d1e8b666e51af4684f2c8f986224e1,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[97]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7197003611699164660, guid: 72d1e8b666e51af4684f2c8f986224e1,
         type: 3}
       propertyPath: m_LocalRotation.y
@@ -7071,11 +7076,30 @@ MonoBehaviour:
       Controls: []
       ControlsList: []
       Expressions: []
-  EnableRecording: 0
+  EnableRecording: 1
   RecordOnStart: 0
   ClipToWriteTo: {fileID: 0}
   Recording: 0
   KeyframeOnNewData: 0
+--- !u!95 &249542516
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249542513}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5da5abdd16b895947991ef65df9fda8f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &398141125
 GameObject:
   m_ObjectHideFlags: 0

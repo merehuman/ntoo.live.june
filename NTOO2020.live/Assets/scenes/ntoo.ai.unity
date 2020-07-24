@@ -260,80 +260,6 @@ MonoBehaviour:
   axisOffset: {fileID: 180966036}
   axisFixed: {fileID: 2094153607}
   axisOriginal: {fileID: 6130444506745689377}
---- !u!1001 &192093575
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.008417112
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.5561405
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.2455389
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1.2246469e-16
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7ff9beaef228e344ab3a0de783523e16, type: 2}
-    - target: {fileID: -927199367670048503, guid: 85225859c95ebef42867edf98d7e8fb3,
-        type: 3}
-      propertyPath: m_Name
-      value: ntoo.hair
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 85225859c95ebef42867edf98d7e8fb3, type: 3}
 --- !u!1 &396894415
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,7 +6284,7 @@ MonoBehaviour:
   randomHoldDurationMin: 0.1
   randomHoldDurationMax: 0.5
   configReady: 0
-  inspSalsaLinked: 1
+  inspSalsaLinked: 0
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 1
@@ -6897,7 +6823,7 @@ MonoBehaviour:
         expressionHandler: 0
         isAnimatorControlled: 0
         useOffset: 0
-        inspFoldout: 1
+        inspFoldout: 0
         enabled: 1
         isBonePreviewUpdated: 0
         frac: 1
@@ -6942,7 +6868,7 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 0
+      inspFoldout: 1
       previewDisplayMode: 0
       collectionExpand: 0
     trigger: 0
@@ -8065,7 +7991,7 @@ MonoBehaviour:
   configReady: 1
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
-  inspStateFoldoutVisemes: 0
+  inspStateFoldoutVisemes: 1
   inspCollectionDisplayMode: 0
   inspAnalysisDisplay: 0
   inspOverrideSecondaryMix: 0
