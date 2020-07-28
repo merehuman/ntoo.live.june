@@ -1,0 +1,2 @@
+idle.anim' filter=lfs diff=lfs merge=lfs -text
+idle.anim filter=lfs diff=lfs merge=lfs -text
