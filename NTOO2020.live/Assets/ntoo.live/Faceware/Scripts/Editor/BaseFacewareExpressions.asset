@@ -3,9 +3,8 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -50,12 +49,12 @@ MonoBehaviour:
     Values: []
   - Name: Eye Wide - LEFT
     Desc: Open the character\u0027s left eye wide.
-    Attr: eyes_leftEye_wide
+    Attr: left_eye_wide
     InUse: 0
     Values: []
   - Name: Eye Wide - RIGHT
     Desc: Open the character\u0027s right eye wide.
-    Attr: eyes_rightEye_wide
+    Attr: right_eye_wide
     InUse: 0
     Values: []
   - Name: Eyebrow Up - LEFT
@@ -125,22 +124,22 @@ MonoBehaviour:
     Values: []
   - Name: Mouth Stretch - LEFT
     Desc: Pose the mouth so it\u0027s stretched on the \u0027left\u0027 side.
-    Attr: mouth_leftMouth_stretch
+    Attr: mouth_left_stretch
     InUse: 0
     Values: []
   - Name: Mouth Stretch - RIGHT
     Desc: Pose the mouth so it\u0027s stretched on the \u0027right\u0027 side.
-    Attr: mouth_rightMouth_stretch
+    Attr: mouth_right_stretch
     InUse: 0
     Values: []
   - Name: Mouth Narrow - LEFT
     Desc: Pose the mouth so it\u0027s narrowed on the \u0027left\u0027 side.
-    Attr: mouth_leftMouth_narrow
+    Attr: mouth_left_narrow
     InUse: 0
     Values: []
   - Name: Mouth Narrow - RIGHT
     Desc: Pose the mouth so it\u0027s narrowed on the \u0027right\u0027 side.
-    Attr: mouth_rightMouth_narrow
+    Attr: mouth_right_narrow
     InUse: 0
     Values: []
   - Name: Smile - LEFT
@@ -226,25 +225,5 @@ MonoBehaviour:
   - Name: Head Tilt Left
     Desc: Tilt the character\u0027s head \u0027left\u0027.
     Attr: head_LeftTilt
-    InUse: 0
-    Values: []
-  - Name: Nose Sneer - LEFT
-    Desc: Sneer Left.
-    Attr: noseSneerLeft
-    InUse: 0
-    Values: []
-  - Name: Nose Sneer - RIGHT
-    Desc: Sneer Right
-    Attr: noseSneerRight
-    InUse: 0
-    Values: []
-  - Name: Cheek Squint - LEFT
-    Desc: Squint Left
-    Attr: cheekSquintLeft
-    InUse: 0
-    Values: []
-  - Name: Cheek Squint - RIGHT
-    Desc: Sneer Right
-    Attr: cheekSquintRight
     InUse: 0
     Values: []

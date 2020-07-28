@@ -260,6 +260,86 @@ MonoBehaviour:
   axisOffset: {fileID: 180966036}
   axisFixed: {fileID: 2094153607}
   axisOriginal: {fileID: 6130444506745689377}
+--- !u!1001 &336143928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5624954685839227097}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.008417112
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.019959372
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22553891
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.2246469e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ff9beaef228e344ab3a0de783523e16, type: 2}
+    - target: {fileID: -927199367670048503, guid: 1af69c2e167f71441a4bc5938aee6a57,
+        type: 3}
+      propertyPath: m_Name
+      value: ntoohairjuly28
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1af69c2e167f71441a4bc5938aee6a57, type: 3}
+--- !u!4 &336143929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1af69c2e167f71441a4bc5938aee6a57,
+    type: 3}
+  m_PrefabInstance: {fileID: 336143928}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &396894415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3590,7 +3670,7 @@ GameObject:
   - component: {fileID: 502105211562886723}
   - component: {fileID: 5534548019730153804}
   m_Layer: 0
-  m_Name: ntoo
+  m_Name: Genesis8Female.Shape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4386,12 +4466,12 @@ SkinnedMeshRenderer:
   - 0
   - 0
   - 0
-  - -3
-  - -6.62
   - 0
-  - -9.56
   - 0
-  - -19.83
+  - 0
+  - 0
+  - 0
+  - 0
   - 0
   - 0
   - 0
@@ -4703,9 +4783,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 961565918}
+  - {fileID: 336143929}
   m_Father: {fileID: 3379653174229903017}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
 --- !u!1 &5640179907559250670
 GameObject:
   m_ObjectHideFlags: 0
@@ -4777,7 +4858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308138632484751777}
   m_Layer: 0
-  m_Name: ntoo
+  m_Name: Genesis8Female
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6246,6 +6327,7 @@ GameObject:
   - component: {fileID: 8296172668458682860}
   - component: {fileID: 8296172668458682866}
   - component: {fileID: 8296172668458682865}
+  - component: {fileID: 8296172668458682867}
   m_Layer: 0
   m_Name: ntoo02.2020.body
   m_TagString: Untagged
@@ -6284,7 +6366,7 @@ MonoBehaviour:
   randomHoldDurationMin: 0.1
   randomHoldDurationMax: 0.5
   configReady: 0
-  inspSalsaLinked: 0
+  inspSalsaLinked: 1
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 1
@@ -8049,6 +8131,37 @@ MonoBehaviour:
   selectedMic: 
   linkWithSalsa: 1
   audioSrc: {fileID: 0}
+--- !u!114 &8296172668458682867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668458682859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ad56ec20fdae349a942701deb2f3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LiveServerHostIP: localhost
+  LiveServerHostPort: 802
+  ConnectOnPlay: 1
+  ReconnectOnLostConnection: 1
+  DropPackets: 1
+  ExpressionSetFile: {fileID: 11400000, guid: 613328be3c910cf468afda5c7b7e2645, type: 2}
+  character:
+    data:
+      Meta:
+        Application: 
+        version: 
+      Controls: []
+      ControlsList: []
+      Expressions: []
+  EnableRecording: 0
+  RecordOnStart: 0
+  ClipToWriteTo: {fileID: 0}
+  Recording: 0
+  KeyframeOnNewData: 0
 --- !u!4 &8298630278984802944
 Transform:
   m_ObjectHideFlags: 0
