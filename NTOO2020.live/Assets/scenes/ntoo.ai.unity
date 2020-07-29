@@ -6366,7 +6366,7 @@ MonoBehaviour:
   randomHoldDurationMin: 0.1
   randomHoldDurationMax: 0.5
   configReady: 0
-  inspSalsaLinked: 1
+  inspSalsaLinked: 0
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 1
