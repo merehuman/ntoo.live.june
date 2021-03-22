@@ -17,7 +17,7 @@ public class animcontroller_stern : MonoBehaviour
     {
         if (Input.GetKeyDown("3"))
         {
-            anim.Play("stern-3");
+            anim.CrossFade("stern-3", 0.25f);
         }
 
     }

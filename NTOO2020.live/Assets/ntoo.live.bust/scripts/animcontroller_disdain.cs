@@ -17,7 +17,7 @@ public class animcontroller_disdain : MonoBehaviour
     {
         if (Input.GetKeyDown("4"))
         {
-            anim.Play("disdain-4");
+            anim.CrossFade("disdain-4", 0.25f);
         }
 
     }

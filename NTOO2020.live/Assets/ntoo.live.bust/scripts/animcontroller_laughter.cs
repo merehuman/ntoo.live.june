@@ -17,7 +17,7 @@ public class animcontroller_laughter : MonoBehaviour
     {
         if (Input.GetKeyDown("y"))
         {
-            anim.Play("laughter-Y");
+            anim.CrossFade("laughter-Y", 0.25f);
         }
 
     }

@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/scenes/ntoo.live.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0

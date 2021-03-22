@@ -17,7 +17,7 @@ public class animcontroller_lipsmack : MonoBehaviour
     {
         if (Input.GetKeyDown("2"))
         {
-            anim.Play("lip smack-2");
+            anim.CrossFade("lip-smack-2", 0.25f);
         }
 
     }

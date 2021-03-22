@@ -17,7 +17,7 @@ public class animcontroller_erlenesmile : MonoBehaviour
     {
         if (Input.GetKeyDown("t"))
         {
-            anim.Play("erlene-smile-T");
+            anim.CrossFade("erlene-smile-T", 0.25f);
         }
 
     }

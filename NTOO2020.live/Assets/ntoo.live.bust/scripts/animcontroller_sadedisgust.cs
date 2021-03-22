@@ -17,7 +17,7 @@ public class animcontroller_sadedisgust : MonoBehaviour
     {
         if (Input.GetKeyDown("6"))
         {
-            anim.Play("sade-disgust-6");
+            anim.CrossFade("sade-disgust-6", 0.25f);
         }
 
     }

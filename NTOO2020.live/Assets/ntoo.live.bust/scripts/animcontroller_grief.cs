@@ -17,7 +17,7 @@ public class animcontroller_grief : MonoBehaviour
     {
         if (Input.GetKeyDown("q"))
         {
-            anim.Play("grief-Q");
+            anim.CrossFade("grief-Q", 0.25f);
         }
 
     }

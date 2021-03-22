@@ -17,7 +17,7 @@ public class animcontroller_melancholy : MonoBehaviour
     {
         if (Input.GetKeyDown("w"))
         {
-            anim.Play("melancholy-W");
+            anim.CrossFade("melancholy-W", 0.25f);
         }
 
     }

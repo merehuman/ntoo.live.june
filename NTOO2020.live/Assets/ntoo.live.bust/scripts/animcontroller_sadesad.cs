@@ -17,7 +17,7 @@ public class animcontroller_sadesad : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
-            anim.Play("sade-sad-E");
+            anim.CrossFade("sade-sad-E", 0.25f);
         }
 
     }

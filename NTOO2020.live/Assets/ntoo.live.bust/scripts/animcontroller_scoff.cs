@@ -17,7 +17,7 @@ public class animcontroller_scoff : MonoBehaviour
     {
         if (Input.GetKeyDown("7"))
         {
-            anim.Play("scoff-7");
+            anim.CrossFade("scoff-7", 0.25f);
         }
 
     }

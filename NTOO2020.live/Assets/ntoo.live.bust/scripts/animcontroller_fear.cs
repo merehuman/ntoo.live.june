@@ -17,7 +17,7 @@ public class animcontroller_fear : MonoBehaviour
     {
         if (Input.GetKeyDown("0"))
         {
-            anim.Play("fear-0");
+            anim.CrossFade("fear-0", 0.25f);
         }
 
     }

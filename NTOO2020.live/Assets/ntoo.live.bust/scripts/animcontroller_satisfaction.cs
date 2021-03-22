@@ -17,7 +17,7 @@ public class animcontroller_satisfaction : MonoBehaviour
     {
         if (Input.GetKeyDown("i"))
         {
-            anim.Play("satisfaction-I");
+            anim.CrossFade("satisfaction-I", 0.25f);
         }
 
     }

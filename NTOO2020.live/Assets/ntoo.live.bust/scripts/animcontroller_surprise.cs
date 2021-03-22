@@ -17,7 +17,7 @@ public class animcontroller_surprise : MonoBehaviour
     {
         if (Input.GetKeyDown("d"))
         {
-            anim.Play("surprise-D");
+            anim.CrossFade("surprise-D", 0.25f);
         }
 
     }

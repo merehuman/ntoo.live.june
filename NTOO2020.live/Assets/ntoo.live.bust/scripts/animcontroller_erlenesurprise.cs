@@ -17,7 +17,7 @@ public class animcontroller_erlenesurprise : MonoBehaviour
     {
         if (Input.GetKeyDown("p"))
         {
-            anim.Play("erlene-surprise-P");
+            anim.CrossFade("erlene-surprise-P", 0.25f);
         }
 
     }

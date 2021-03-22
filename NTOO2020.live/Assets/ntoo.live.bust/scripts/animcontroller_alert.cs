@@ -17,7 +17,9 @@ public class animcontroller_alert : MonoBehaviour
     {
         if (Input.GetKeyDown("o"))
         {
-            anim.Play("alert-O");
+            
+            anim.CrossFade("alert-O", 0.25f);
+
         }
 
     }

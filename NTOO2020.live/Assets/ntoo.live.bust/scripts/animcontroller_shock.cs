@@ -17,7 +17,7 @@ public class animcontroller_shock : MonoBehaviour
     {
         if (Input.GetKeyDown("s"))
         {
-            anim.Play("shock-S");
+            anim.CrossFade("shock-S", 0.25f);
         }
 
     }

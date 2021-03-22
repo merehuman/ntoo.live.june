@@ -17,7 +17,7 @@ public class animcontroller_sadness : MonoBehaviour
     {
         if (Input.GetKeyDown("r"))
         {
-            anim.Play("sadness-R");
+            anim.CrossFade("sadness-R", 0.25f);
         }
 
     }

@@ -17,7 +17,7 @@ public class animcontroller_anger : MonoBehaviour
     {
         if (Input.GetKeyDown("1"))
         {
-            anim.Play("anger-1");
+            anim.CrossFade("anger-1", 0.25f);
         }
 
     }
